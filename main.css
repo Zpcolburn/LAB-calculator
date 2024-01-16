@@ -16,21 +16,51 @@ body {
   justify-content: flex-end;
   flex-direction: column;
   width: 400px;
-  padding: 20px;
-  height: fit-content;
+  border: 0;
 }
 .row {
   display: flex;
-  justify-content: space-between ;
+  justify-content: center;
+  height: 50px;
+  width: 405px;
+}
+button.clear{
+  flex-grow: 2.4;
+}
+button.arrow {
+ flex-shrink: .4;
+}
+button.divide {
+  flex-grow: 1.1;
+  background-color: orange
+}
+button.times {
+  flex-grow: 1
+}
+button.minus {
+  flex-grow: 1
+}
+button.plus {
+  flex-grow: 1;
+}
+button.equals {
+  flex-grow: 1;
+}
+button.zero {
+  flex-grow: 3.4
 }
 button {
-  padding: 10px;
-  margin: 5px;
-  font-size: 18px;
+  font-size: 20px;
   cursor: pointer;
+  flex-grow: 1;
+  justify-content: center;
+  height: 50px;
+
 }
 input {
-  margin-bottom: 10px;
-  font-size: 18px;
   width: 400px;
+  height: 48px;
+  background-color: black;
+  color:aliceblue
+
 }
